@@ -1,0 +1,17 @@
+[
+    {
+      "id": 1,
+      "nom": "John Doe",
+      "email": "john@example.com",
+      "motDePasse": "123456",
+      "role": "membre"
+    },
+    {
+      "id": 2,
+      "nom": "Admin",
+      "email": "admin@example.com",
+      "motDePasse": "admin",
+      "role": "administrateur"
+    }
+  ]
+  
