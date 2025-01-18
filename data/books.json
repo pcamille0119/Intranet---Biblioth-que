@@ -9,8 +9,8 @@
     { "id": 8, "titre": "The Lord of the Rings", "auteur": "J.R.R. Tolkien", "etat": "disponible" },
     { "id": 9, "titre": "The Hobbit", "auteur": "J.R.R. Tolkien", "etat": "disponible" },
     { "id": 10, "titre": "Jane Eyre", "auteur": "Charlotte Brontë", "etat": "disponible" },
-    { "id": 11, "titre": "One Piece", "auteur": "Eiichirō Oda", "etat": "disponible" },
-    { "id": 12, "titre": "Naruto", "auteur": "Masashi Kishimoto", "etat": "disponible" }
+    { "id": 11, "titre": "One Piece - Tome 1", "auteur": "Eiichirō Oda", "etat": "disponible" },
+    { "id": 12, "titre": "Naruto - Tome 72", "auteur": "Masashi Kishimoto", "etat": "disponible" }
   ]
 
   
