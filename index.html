@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,18 +10,19 @@
   <!-- Lien vers la feuille de styles -->
   <link rel="stylesheet" href="./Styles/style.css">
 </head>
+
 <body>
   <div class="wrapper d-flex flex-column min-vh-100">
     <!-- Header -->
     <header class="d-flex justify-content-between align-items-center px-4">
-      <div class="logo">
+      <a href="#" class="logo text-decoration-none text-white" id="logo-link">
         <h1>📚 Bibliothèque</h1>
-      </div>
-      <div class="buttons">
-        <a href="./modules/Connexion/login.html" class="btn btn-light me-2">Connexion</a>
-        <a href="./modules/Inscription/signup.html" class="btn btn-primary">Inscription</a>
+      </a>
+      <div id="user-info" class="d-flex align-items-center">
+        <!-- Les informations utilisateur ou boutons s'affichent dynamiquement ici -->
       </div>
     </header>
+
 
     <!-- Main Content -->
     <main class="container text-center flex-grow-1">
@@ -47,4 +49,5 @@
   <!-- Lien vers le fichier JS -->
   <script src="./Scripts/script.js"></script>
 </body>
+
 </html>

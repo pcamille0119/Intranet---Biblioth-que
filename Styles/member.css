@@ -1,0 +1,10 @@
+/* Centrer les informations utilisateur dans le header */
+#user-info {
+    font-size: 1rem;
+    color: white;
+  }
+  
+  #logout-btn {
+    font-size: 0.875rem;
+  }
+  

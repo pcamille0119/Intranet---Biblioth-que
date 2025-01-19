@@ -31,3 +31,28 @@ footer {
   text-align: center;
   padding: 1rem;
 }
+
+/* Lien vers l'espace membre */
+#user-info a {
+  font-weight: bold;
+  color: white;
+}
+
+#user-info a:hover {
+  text-decoration: underline;
+}
+
+/* Bouton de déconnexion */
+#logout-btn {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#logout-btn:hover {
+  background-color: #c0392b;
+}
