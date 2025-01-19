@@ -1,8 +1,18 @@
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f5f5f5;
+/* Centrer verticalement le contenu principal */
+main {
+  text-align: center;
+}
+form {
+  margin: 0 auto;
 }
 
-h2 {
-  color: #4A90E2;
+/* Footer toujours en bas de la page */
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.flex-grow-1 {
+  flex: 1;
 }
