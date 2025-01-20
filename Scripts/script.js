@@ -62,6 +62,7 @@ document.getElementById("searchInput").addEventListener("input", function () {
 // prise en charge d'une session en cour
 document.addEventListener("DOMContentLoaded", function () {
   const user = JSON.parse(localStorage.getItem("users")) || JSON.parse(sessionStorage.getItem("users"));
+  const userSignup = localStorage.getItem("users");
   const userInfo = document.getElementById("user-info");
   const logoLink = document.getElementById("logo-link");
 
@@ -89,17 +90,17 @@ document.addEventListener("DOMContentLoaded", function () {
 
       // Rediriger vers la page d'accueil
       alert("Déconnexion réussie.");
-      window.location.href = "../../index.html";
+
+      // Redirection relative
+      window.location.href = "index.html";
+
     });
   } else {
     // Utilisateur déconnecté
     userInfo.innerHTML = `
-      <a href="./modules/Connexion/login.html" class="btn btn-light me-2">Connexion</a>
-      <a href="./modules/Inscription/signup.html" class="btn btn-primary">Inscription</a>
+      <a href="./modules/Connexion/login.html" class="btn btn-primary me-2">Connexion</a>
+      <a href="./modules/Inscription/signup.html" class="btn btn-secondary">Inscription</a>
     `;
-
-    // Activer la redirection du logo
-    logoLink.href = "../../index.html";
   }
 });
 

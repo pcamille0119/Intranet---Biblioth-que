@@ -26,7 +26,7 @@ document.getElementById("signupForm").addEventListener("submit", function (e) {
   
       // Confirmation et redirection
       alert("Inscription réussie !");
-      window.location.href = "../index.html"; // Retour à la page d'accueil
+      window.location.href = "../../index.html"; // Retour à la page d'accueil
     } else {
       alert("Veuillez remplir tous les champs.");
     }

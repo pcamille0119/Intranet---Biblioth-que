@@ -2,15 +2,15 @@
     {
       "id": 1,
       "nom": "John Doe",
-      "email": "john@example.com",
-      "motDePasse": "123456",
+      "email": "john@biblio.com",
+      "motDePasse": "12345",
       "role": "membre"
     },
     {
       "id": 2,
       "nom": "Admin",
-      "email": "admin@example.com",
-      "motDePasse": "admin",
+      "email": "admin@biblio.com",
+      "motDePasse": "essai",
       "role": "administrateur"
     }
   ]
